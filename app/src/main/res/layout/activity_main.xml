@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xzw.weexdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="从本地加载JS"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="从网络加载JS"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Module 扩展"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_component"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Component 扩展"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btn_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="实现Android滑动效果"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
